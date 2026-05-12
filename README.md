@@ -60,14 +60,3 @@ flutter pub get
 flutter run
 ```
 
-## Seguridad
-
-No subas al repositorio:
-
-- Claves privadas.
-- Certificados de dispositivos.
-- Archivos `.env`.
-- Builds generados.
-- Configuraciones locales del IDE.
-
-El archivo `.gitignore` ya excluye certificados, credenciales locales y carpetas generadas por Flutter.
