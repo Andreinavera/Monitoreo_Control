@@ -1,0 +1,11 @@
+# Ignorar todos los certificados - NO subir al repositorio
+*.pem
+*.crt
+*.key
+*.p12
+*.pfx
+*.der
+
+# Pero mantener este archivo y el README
+!.gitignore
+!README.md

@@ -1,0 +1,51 @@
+name: flutter_application_1
+description: "App de control de aire acondicionado via AWS IoT Core MQTT"
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Cliente MQTT para comunicación con AWS IoT Core
+  mqtt_client: ^10.5.2
+
+  # Gestión de estado reactivo
+  provider: ^6.1.2
+
+  # Manejo de archivos y assets
+  flutter_secure_storage: ^9.2.2
+
+  # Persistencia del modo de la app entre sesiones
+  shared_preferences: ^2.3.2
+
+  # Gráficas de consumo histórico
+  fl_chart: ^0.69.0
+
+  # Llamadas HTTP al API Gateway
+  http: ^1.2.2
+
+  # Generación de reportes PDF
+  pdf: ^3.11.0
+  printing: ^5.13.1
+
+  # Compartir archivos (CSV, PDF)
+  share_plus: ^10.0.0
+
+  # Íconos adicionales
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets de certificados X.509 para TLS mutuo con AWS IoT
+  assets:
+    - assets/certs/
