@@ -2,7 +2,7 @@
 
 Aplicacion Flutter para monitorear y controlar dispositivos de un entorno inteligente mediante AWS IoT Core, MQTT y servicios HTTP.
 
-## Caracteristicas
+## Características
 
 - Conexion MQTT segura con AWS IoT Core.
 - Monitoreo de eventos del aire acondicionado.
@@ -11,7 +11,7 @@ Aplicacion Flutter para monitorear y controlar dispositivos de un entorno inteli
 - Generacion y exportacion de reportes.
 - Persistencia local de configuraciones de la app.
 
-## Tecnologias
+## Tecnologías
 
 - Flutter
 - Dart
@@ -34,7 +34,7 @@ assets/
   certs/        Certificados locales no versionados
 ```
 
-## Configuracion
+## Configuración
 
 Este proyecto necesita certificados X.509 de AWS IoT Core para conectarse por MQTT. Por seguridad, los certificados reales no se incluyen en el repositorio.
 
@@ -53,7 +53,7 @@ lib/services/mqtt_service.dart
 lib/services/api_service.dart
 ```
 
-## Instalacion
+## Instalación
 
 ```bash
 flutter pub get
